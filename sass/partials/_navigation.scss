@@ -1,0 +1,46 @@
+.header-image {
+	background: url(../images/rodman-praise.jpg);
+	background-size: cover;
+	height: 500px;
+
+}
+
+.navbar {
+	text-align: center;
+	ul {
+		background-color: $main-color;
+		display: flex;
+		justify-content: center;
+		margin-top: 35px;
+		width: 100%;
+		li {
+			padding: 20px 55px;
+			color: white;
+		}
+	}
+
+}
+
+
+.header-text {
+	text-align: center;
+	color: white;
+	padding-top: 20px;
+	position: relative;
+	width: 100%;
+	h1 {
+		margin: 0px;
+		padding-top: 15px;
+		font-family: 'Merriweather', serif;
+		font-size: 3.3rem;
+	}
+	p {
+		position: absolute;
+		top: 192%;
+		left: 0%;
+		/*If i can help somebody*/
+		font-family: 'Lobster Two', cursive;
+		font-size: 2.9rem;
+		width: 100%;
+	}
+}
