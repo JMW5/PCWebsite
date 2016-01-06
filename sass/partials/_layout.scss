@@ -1,0 +1,54 @@
+section {
+	background-color: $main-color;
+	height: 125px;
+}
+.sections {
+	display: flex;
+	justify-content: center;
+	h1 {
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 56px;
+		color: white;
+	}
+}
+
+
+//ABOUT SECTION//
+.about-section, .event-section, .sermon-section {
+	padding-bottom: 45px;
+	h1 {
+		padding-bottom: 35px;
+		font-family: 'Open Sans Condensed', sans-serif;
+		font-size: 56px;
+	}
+	p {
+		font-size: 2.3rem;
+		line-height: 3.5rem;
+		margin-top: 45px;
+		padding-bottom: 10px;
+	}
+	img {
+		border-radius: 10px;
+	}
+}
+
+#event-paragraph {
+	font-size: 1.4rem !important;
+	margin: 0px !important;
+	line-height: 2.5rem !important;
+	text-align: left;
+	padding: 0px 15px;
+}
+
+.event-section {
+	.event1 {
+		border: 1px solid blck;
+		height: 450px;
+		padding: 0;
+		overflow: hidden;
+		img {
+			height: 275px;
+			border-radius: 0 !important;
+		}
+	}
+}
